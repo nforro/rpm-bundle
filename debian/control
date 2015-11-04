@@ -1,0 +1,48 @@
+Source: rpm-bundle
+Section: admin
+Priority: optional
+Maintainer: Nikola Forró <nforro@redhat.com>
+Build-Depends: debhelper (>= 8.0.0),
+               dh-autoreconf,
+               autoconf,
+               automake,
+               autopoint,
+               autotools-dev,
+               zlib1g-dev,
+               libbz2-dev,
+               libpopt-dev,
+               libxml2-dev,
+               libarchive-dev,
+               libreadline-dev,
+               libselinux1-dev,
+               libsepol1-dev,
+               libcap-dev (>= 1:2),
+               libdbus-1-dev,
+               libsqlite3-dev,
+               bzip2,
+               pkg-config,
+               libnspr4-dev,
+               libnss3-dev,
+               liblzma-dev,
+               xz-utils,
+               libmagic-dev,
+               libelf-dev,
+               libdw-dev,
+               libdb-dev,
+               liblua5.2-dev,
+               libselinux-dev,
+               libsemanage-dev
+Standards-Version: 3.9.2
+Homepage: http://rpm.org/
+
+Package: rpm-bundle
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         libpopt-dev
+Replaces: rpm
+Breaks: rpm
+Description: package manager for RPM
+ The RPM Package Manager (RPM) is a command-line driven package
+ management system capable of installing, uninstalling, verifying,
+ querying, and updating computer software packages.
