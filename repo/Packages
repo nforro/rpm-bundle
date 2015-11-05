@@ -9,11 +9,11 @@ Replaces: rpm
 Depends: libarchive12, libbz2-1.0, libc6 (>= 2.15), libcap2 (>= 2.10), libdb5.1, libdbus-1-3 (>= 1.0.2), libelf1 (>= 0.131), liblua5.2-0, liblzma5 (>= 5.1.1alpha+20110809), libmagic1, libnss3 (>= 3.12.5), libpopt0 (>= 1.14), libselinux1 (>= 2.1.0), zlib1g (>= 1:1.1.4), libpopt-dev
 Breaks: rpm
 Filename: ./rpm-bundle_4.12.0.1-1_amd64.deb
-Size: 1195802
-MD5sum: db51fcb12a9d7a9e0afda73999873873
-SHA1: 99080cb50eb1240496cb6e0d3a5b39c30f0bc9c5
-SHA256: d501210ae2f58f4f782dc23a4a9e3efe9e705147cba3dbcc0b68405323787610
-SHA512: b563f8790c8f41ac7d0b398899ed7108eba1d39ecd11d251ab1bcfaa5d5e71fb1ecd02d491b5f1375a63792009fdbe5891de63af98b5f7babf46a59820b62579
+Size: 1196378
+MD5sum: d1ed067647d111f64bda3785dd746b2e
+SHA1: 63d6ccb9a3762223134413eb71669cf858f679e4
+SHA256: cefbe6b8e7570be23d43abfe25ddc7669932a1e6b4fe744eeb4a5dea5305f9ef
+SHA512: 5c4419d959575dbb5e72e828ec35adb7ccf53cacdb0879fc097398cf7f6e1b5995c5dbbd9a76e7323ee7d608c90fd3170250ddf5ad99074e89c0cdd32535225d
 Description: package manager for RPM
  The RPM Package Manager (RPM) is a command-line driven package
  management system capable of installing, uninstalling, verifying,
