@@ -1,3 +1,4 @@
+# Dockerfile for nforro/ubuntu-precise-dev
 FROM ubuntu:precise
 MAINTAINER Nikola Forró <nforro@redhat.com>
 ENV DEBIAN_FRONTEND noninteractive
