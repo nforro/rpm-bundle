@@ -6,4 +6,5 @@ python:
   - "3.4"
   - "3.5"
 before_install: ./travis/install-dependencies.sh
+install: pip install -r ./travis/requirements.txt
 script: python ./travis/test.py
