@@ -19,5 +19,7 @@ class TestCmd(Command):
 
 
 setup(
+    name='rpm-bundle',
+    version='4.12.0.1',
     cmdclass = {'test': TestCmd},
 )

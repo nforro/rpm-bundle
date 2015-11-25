@@ -23,11 +23,12 @@ installed by apt-get.
 - **repo/**:
     directory that contains results of the build and gpg public key,
     this is the actual debian repository
-- **travis/install-dependencies.sh**:
+- **travis/install-rpm.sh**:
     script to be run inside Travis CI environment that installs the package
-    and builds python modules
 - **travis/test.py**:
-    python test script that tries to import the rpm module
+    python test script that tests functionality of the rpm module
+- **travis/tox.ini**:
+    configuration file for tox
 - **make.sh**:
     script that does it all, it builds the repository in docker container
     and signs its metadata
