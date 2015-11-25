@@ -14,7 +14,7 @@ class TestCmd(Command):
         pass
 
     def run(self):
-        cmd = ['py.test', '-v', 'test.py']
+        cmd = ['py.test', '-v', 'tests.py']
         sys.exit(subprocess.Popen(cmd).wait())
 
 
