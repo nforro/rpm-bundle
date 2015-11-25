@@ -47,6 +47,14 @@ rm -f "$repodir/"*.deb
 # copy package to repo
 cp "../${package}_${version}-1_${arch}.deb" "$repodir" || exit 1
 
+cd python
+
+# build python source distribution
+echo 'include *.h' > MANIFEST.in
+python setup.py sdist --formats=bztar -d "$repodir" || exit 1
+mv "$repodir/${upstream_name}-python-${version}.tar.bz2" \
+    "$repodir/${upstream_name}-python.tar.bz2" || exit 1
+
 cd "$repodir"
 
 # generate Packages file

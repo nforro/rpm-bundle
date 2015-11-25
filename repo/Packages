@@ -1,7 +1,7 @@
 Package: rpm-bundle
 Priority: optional
 Section: admin
-Installed-Size: 3970
+Installed-Size: 3779
 Maintainer: Nikola Forró <nforro@redhat.com>
 Architecture: amd64
 Version: 4.12.0.1-1
@@ -9,11 +9,11 @@ Replaces: rpm
 Depends: libarchive12, libbz2-1.0, libc6 (>= 2.15), libcap2 (>= 2.10), libdb5.1, libdbus-1-3 (>= 1.0.2), libelf1 (>= 0.131), liblua5.2-0, liblzma5 (>= 5.1.1alpha+20110809), libmagic1, libnss3 (>= 3.12.5), libpopt0 (>= 1.14), libselinux1 (>= 2.1.0), zlib1g (>= 1:1.1.4), libpopt-dev
 Breaks: rpm
 Filename: ./rpm-bundle_4.12.0.1-1_amd64.deb
-Size: 1196444
-MD5sum: f95a6313c74dc7438b19006bdb3cbb66
-SHA1: 3b4f5974cac309ef3d6655d1ab60010435f208e7
-SHA256: 08f6bcc00215ce4c8211f1ce34b83c90d5987d815d122ec8b9750d57e9b08ea9
-SHA512: 984fd2d7ea131691ea0e71dec08f700cc724feaedfeec9488f3f88e6f287315976732ddb5d3af3bc2721f9779a24dc9460c17dea906fa39a2c7083bbc7b36f7b
+Size: 1157524
+MD5sum: a47437fd8a9cfe66b082d53bf664c503
+SHA1: 8231910adbe86bbf809746f185b6aa0d4618dd09
+SHA256: 94de10fbe2d7bb1fd74c302ce2dd4f876a139d079385ff08712b20ac8c9bd5b7
+SHA512: c10d5b6671de1975b415cda85d4960ea1e788e7e59ae019d99b7c5c85a578a2b0db4b01ddd1f360d42a1f8917d2886becd058cd32ef47f8d301912f42d3716f1
 Description: package manager for RPM
  The RPM Package Manager (RPM) is a command-line driven package
  management system capable of installing, uninstalling, verifying,
