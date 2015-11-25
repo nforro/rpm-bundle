@@ -1,10 +1,5 @@
 sudo: true
 language: python
-python:
-  - "2.7"
-  - "3.3"
-  - "3.4"
-  - "3.5"
-before_install: ./travis/install-dependencies.sh
-install: pip install -r ./travis/requirements.txt
-script: python ./travis/test.py
+before_install: ./travis/install-rpm.sh
+install: pip install tox
+script: tox -c travis/tox.ini
